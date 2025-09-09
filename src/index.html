@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Preguntas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Juego de Preguntas</h1>
+        <div id="timer">Tiempo restante: <span id="time"></span> segundos</div>
+        <form id="questions-form">
+            <div class="question-block">
+                <div class="question">¿Cuál es la capital de España?</div>
+                <input type="text" id="answer1" class="answer-input" autocomplete="off">
+            </div>
+            <div class="question-block">
+                <div class="question">¿Cuánto es 2 + 2?</div>
+                <input type="text" id="answer2" class="answer-input" autocomplete="off">
+            </div>
+            <div class="question-block">
+                <div class="question">¿Qué color resulta de mezclar azul y amarillo?</div>
+                <input type="text" id="answer3" class="answer-input" autocomplete="off">
+            </div>
+            <div class="question-block">
+                <div class="question">¿En qué continente está Brasil?</div>
+                <input type="text" id="answer4" class="answer-input" autocomplete="off">
+            </div>
+            <div class="question-block">
+                <div class="question">¿Cuál es el animal más rápido del mundo?</div>
+                <input type="text" id="answer5" class="answer-input" autocomplete="off">
+            </div>
+            <div class="buttons">
+                <button type="button" id="btn-finalizar">Finalizar</button>
+                <button type="button" id="btn-volverIntentar">Volver a Intentar</button>
+            </div>
+        </form>
+        <audio id="audio" src="gameover.mp3" type="audio/mpeg"></audio>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
