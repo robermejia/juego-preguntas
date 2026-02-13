@@ -1,6 +1,8 @@
 # Juego de Preguntas
+
 ## Despliegue Github Pages
-- [Web de tipo Portafolio CV](https://robermejia.github.io/juego-preguntas/	https://robermejia.github.io/juego-preguntas/)
+
+- [Juego de preguntas](https://robermejia.github.io/juego-preguntas/)
 
 Este proyecto es un juego interactivo de preguntas que desafía a los jugadores a responder cinco preguntas al azar dentro de un límite de tiempo de un minuto. El juego incluye un temporizador, botones para finalizar o reiniciar el juego, y un diseño profesional.
 
